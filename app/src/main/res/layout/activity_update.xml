@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Update"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="100dp">
+
+
+
+
+    <EditText
+        android:id="@+id/exval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Excisting value"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/nwval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="New value"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/upbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
